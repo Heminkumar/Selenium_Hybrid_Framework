@@ -1,0 +1,3 @@
+2022-10-06 14:51:15,001 :INFO : utilities.customLogger :********** Test_001_Login **********
+2022-10-06 14:51:15,010 :INFO : utilities.customLogger :********** Verifying Home Page Title **********
+2022-10-06 14:51:18,129 :INFO : utilities.customLogger :********** Home Page title Test is Passed **********

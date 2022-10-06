@@ -3,6 +3,7 @@ from selenium import webdriver
 from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGenerator
+import time
 
 class Test_001_Login:
     baseURL = ReadConfig.getApplicationURL()
@@ -54,6 +55,7 @@ class Test_001_Login:
         self.lp.setUserName(self.username)
         self.lp.setPassword(self.password)
         self.lp.clickLogin()
+        time.sleep(3)
         self.lp.clickLogout()
         actual_title = self.driver.title
         if actual_title == "Your store. Login":

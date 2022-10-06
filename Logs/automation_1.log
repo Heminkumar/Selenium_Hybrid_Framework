@@ -1,7 +1,0 @@
-2022-10-04 17:47:14,548 :INFO : utilities.customLogger :********** Test_001_Login **********
-2022-10-04 17:47:14,549 :INFO : utilities.customLogger :********** Verifying Home Page Title **********
-2022-10-04 17:47:19,636 :INFO : utilities.customLogger :********** Home Page title Test is Passed **********
-2022-10-04 17:47:20,695 :INFO : utilities.customLogger :********** Verifying Login Test **********
-2022-10-04 17:47:25,982 :INFO : utilities.customLogger :********** Login Test is Passed **********
-2022-10-04 17:47:27,297 :INFO : utilities.customLogger :********** Verifying Logout Test **********
-2022-10-04 17:47:37,516 :INFO : utilities.customLogger :********** Logout Test is Passed **********
