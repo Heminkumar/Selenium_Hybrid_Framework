@@ -1,0 +1,30 @@
+2022-10-06 18:50:55,890 :INFO : utilities.customLogger :********** Test_002_DDT_Login **********
+2022-10-06 18:50:55,890 :INFO : utilities.customLogger :********** Test_002_DDT_Login **********
+2022-10-06 18:50:55,890 :INFO : utilities.customLogger :********** Verifying Login DDT Test **********
+2022-10-06 18:50:55,890 :INFO : utilities.customLogger :********** Verifying Login DDT Test **********
+2022-10-06 18:51:08,226 :INFO : utilities.customLogger :**** Passed ****
+2022-10-06 18:51:08,226 :INFO : utilities.customLogger :**** Passed ****
+2022-10-06 18:51:22,276 :INFO : utilities.customLogger :**** Passed ****
+2022-10-06 18:51:22,276 :INFO : utilities.customLogger :**** Passed ****
+2022-10-06 18:51:27,943 :INFO : utilities.customLogger :**** Passed ****
+2022-10-06 18:51:27,943 :INFO : utilities.customLogger :**** Passed ****
+2022-10-06 18:51:33,584 :INFO : utilities.customLogger :**** Passed ****
+2022-10-06 18:51:33,584 :INFO : utilities.customLogger :**** Passed ****
+2022-10-06 18:51:33,584 :INFO : utilities.customLogger :***** Login DDT Test Passed *****
+2022-10-06 18:51:33,584 :INFO : utilities.customLogger :***** Login DDT Test Passed *****
+2022-10-06 18:51:33,649 :INFO : utilities.customLogger :****** End of Login DDT Test ******
+2022-10-06 18:51:33,649 :INFO : utilities.customLogger :****** End of Login DDT Test ******
+2022-10-06 18:51:33,649 :INFO : utilities.customLogger :********** Completed TC Test_002_ddt_Login **********
+2022-10-06 18:51:33,649 :INFO : utilities.customLogger :********** Completed TC Test_002_ddt_Login **********
+2022-10-06 18:51:35,300 :INFO : utilities.customLogger :********** Test_001_Login **********
+2022-10-06 18:51:35,300 :INFO : utilities.customLogger :********** Test_001_Login **********
+2022-10-06 18:51:35,300 :INFO : utilities.customLogger :********** Verifying Home Page Title **********
+2022-10-06 18:51:35,300 :INFO : utilities.customLogger :********** Verifying Home Page Title **********
+2022-10-06 18:51:39,013 :INFO : utilities.customLogger :********** Home Page title Test is Passed **********
+2022-10-06 18:51:39,013 :INFO : utilities.customLogger :********** Home Page title Test is Passed **********
+2022-10-06 18:51:40,568 :INFO : utilities.customLogger :********** Verifying Login Test **********
+2022-10-06 18:51:40,568 :INFO : utilities.customLogger :********** Verifying Login Test **********
+2022-10-06 18:51:46,060 :ERROR : utilities.customLogger :********** Login Test is Failed **********
+2022-10-06 18:51:46,060 :ERROR : utilities.customLogger :********** Login Test is Failed **********
+2022-10-06 18:51:48,186 :INFO : utilities.customLogger :********** Verifying Logout Test **********
+2022-10-06 18:51:48,186 :INFO : utilities.customLogger :********** Verifying Logout Test **********
