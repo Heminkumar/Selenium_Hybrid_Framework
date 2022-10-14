@@ -19,4 +19,5 @@ Run Command:-
 For Sanity/Regression test run, [Only provide testcases folder, no need to provide any specific testcase name]
 1) pytest -v -m "sanity" --html=./Reports/report.html testcases/  --browser chrome
 
-Reference: Pavanonline training - SDET - Selenium Hybrid Framework videos (Part 1 to 5)
+# Reference: 
+Pavanonline training - SDET - Selenium Hybrid Framework videos (Part 1 to 5)
