@@ -11,6 +11,7 @@ class Test_001_Login:
     password = ReadConfig.getUserpassword()
     logger = LogGenerator.loggen()
 
+    @pytest.mark.sanity
     def test_homePageTitle(self,web_setup):
         #self.driver = webdriver.Chrome() - we created setup as fixtures so comment this line
         self.logger.info("********** Test_001_Login **********")
@@ -28,6 +29,8 @@ class Test_001_Login:
             self.logger.error("********** Home Page title Test is Failed **********")
             assert False
 
+    @pytest.mark.sanity
+    @pytest.mark.regression
     def test_login(self,web_setup):
         self.logger.info("********** Verifying Login Test **********")
         self.driver = web_setup
@@ -47,6 +50,8 @@ class Test_001_Login:
             self.driver.close()
             assert False
 
+    @pytest.mark.sanity
+    @pytest.mark.regression
     def test_logout(self,web_setup):
         self.logger.info("********** Verifying Logout Test **********")
         self.driver = web_setup

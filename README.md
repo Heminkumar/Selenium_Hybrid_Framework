@@ -8,9 +8,15 @@ This Hybrid Framework is designed for Backend Ecommerce website (https://admin-d
 6. allure-pytest
 
 In this pytest FW, logger functionality is changed so refer utilities/customLogger.py for details for Linux platform
-
+*****************************************************************************************
 Run Command:- 
 1) pytest -v -n=3 --html=Reports/report.html testcases/*  --browser chrome
    
 2) pytest -v -n=3 --html=Reports/report.html testcases/test_login.py  --browser chrome
 3) pytest -v -n=3 --html=Reports/report.html testcases/test_login.py  --browser firefox
+
+******************************************************************************************
+For Sanity/Regression test run, [Only provide testcases folder, no need to provide any specific testcase name]
+1) pytest -v -m "sanity" --html=./Reports/report.html testcases/  --browser chrome
+
+Reference: Pavanonline training - SDET - Selenium Hybrid Framework videos (Part 1 to 5)

@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 06-Oct-2022 at 18:56:41 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 11-Oct-2022 at 15:39:39 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -265,8 +265,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Tester Name</td>
         <td>Hemin</td></tr></table>
     <h2>Summary</h2>
-    <p>4 tests ran in 66.31 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">3 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>3 tests ran in 34.99 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">3 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -277,51 +277,34 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">testcases/test_login.py::Test_001_Login::test_login</td>
-          <td class="col-duration">9.23</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;testcases.test_login.Test_001_Login object at 0x7f7eda419910&gt;, web_setup = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;ecde3c361751248e8f0156d5cbcac6b4&quot;)&gt;<br/><br/>    def test_login(self,web_setup):<br/>        self.logger.info(&quot;********** Verifying Login Test **********&quot;)<br/>        self.driver = web_setup<br/>        self.driver.get(self.baseURL)<br/>        self.lp = LoginPage(self.driver)<br/>        self.lp.setUserName(self.username)<br/>        self.lp.setPassword(self.password)<br/>        self.lp.clickLogin()<br/>        actual_login_title = self.driver.title<br/>        if actual_login_title == &quot;Dashboard / nopCommerce administration1&quot;:<br/>            self.logger.info(&quot;********** Login Test is Passed **********&quot;)<br/>            self.driver.close()<br/>            assert True<br/>        else:<br/>            self.driver.save_screenshot(&quot;.//Screenshots//&quot; + &quot;test_login.png&quot;)<br/>            self.logger.error(&quot;********** Login Test is Failed **********&quot;)<br/>            self.driver.close()<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>testcases/test_login.py:48: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     utilities.customLogger:test_login.py:32 ********** Verifying Login Test **********
-ERROR    utilities.customLogger:test_login.py:46 ********** Login Test is Failed **********<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">testcases/test_login_ddt.py::Test_002_ddt_Login::test_login_ddt</td>
-          <td class="col-duration">39.93</td>
+          <td class="col-name">test_login.py::Test_001_Login::test_homePageTitle</td>
+          <td class="col-duration">12.91</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     utilities.customLogger:test_login_ddt.py:16 ********** Test_002_DDT_Login **********
-INFO     utilities.customLogger:test_login_ddt.py:17 ********** Verifying Login DDT Test **********
-INFO     utilities.customLogger:test_login_ddt.py:39 **** Passed ****
-INFO     utilities.customLogger:test_login_ddt.py:55 **** Passed ****
-INFO     utilities.customLogger:test_login_ddt.py:55 **** Passed ****
-INFO     utilities.customLogger:test_login_ddt.py:55 **** Passed ****
-INFO     utilities.customLogger:test_login_ddt.py:59 ***** Login DDT Test Passed *****
-INFO     utilities.customLogger:test_login_ddt.py:67 ****** End of Login DDT Test ******
-INFO     utilities.customLogger:test_login_ddt.py:68 ********** Completed TC Test_002_ddt_Login **********<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     utilities.customLogger:test_login.py:17 ********** Test_001_Login **********
+INFO     utilities.customLogger:test_login.py:18 ********** Verifying Home Page Title **********
+INFO     utilities.customLogger:test_login.py:25 ********** Home Page title Test is Passed **********<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">testcases/test_login.py::Test_001_Login::test_homePageTitle</td>
-          <td class="col-duration">5.30</td>
+          <td class="col-name">test_login.py::Test_001_Login::test_login</td>
+          <td class="col-duration">9.29</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     utilities.customLogger:test_login.py:16 ********** Test_001_Login **********
-INFO     utilities.customLogger:test_login.py:17 ********** Verifying Home Page Title **********
-INFO     utilities.customLogger:test_login.py:24 ********** Home Page title Test is Passed **********<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     utilities.customLogger:test_login.py:35 ********** Verifying Login Test **********
+INFO     utilities.customLogger:test_login.py:44 ********** Login Test is Passed **********<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">testcases/test_login.py::Test_001_Login::test_logout</td>
-          <td class="col-duration">11.34</td>
+          <td class="col-name">test_login.py::Test_001_Login::test_logout</td>
+          <td class="col-duration">12.03</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     utilities.customLogger:test_login.py:51 ********** Verifying Logout Test **********
-INFO     utilities.customLogger:test_login.py:62 ********** Logout Test is Passed **********<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     utilities.customLogger:test_login.py:56 ********** Verifying Logout Test **********
+INFO     utilities.customLogger:test_login.py:67 ********** Logout Test is Passed **********<br/></div></td></tr></tbody></table></body></html>
